@@ -1,0 +1,6 @@
+image: node
+testCraft_job:
+   script:
+       - npm install -g tc-cli
+       - chmod +x TestCraft-script.sh
+       - ./TestCraft-script.sh
